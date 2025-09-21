@@ -1,19 +1,19 @@
 :root {
-  /* OceanDeep palette mapped to SN variables */
-  --sn-stylekit-background-color: #0b1c2f;   /* deep navy */
-  --sn-stylekit-foreground-color: #a8d0e6; /* soft icy blue */
-  --sn-stylekit-neutral-color: #1a3a50;      /* slightly lighter panel */
-  --sn-stylekit-border-color: #2a4d66;      /* subtle borders */
+  /* Oceanic Next palette */
+  --sn-stylekit-background-color: #1B2B34;   /* main bg */
+  --sn-stylekit-foreground-color: #CDD3DE; /* default text */
+  --sn-stylekit-neutral-color: #2B3A42;      /* panels / borders */
+  --sn-stylekit-border-color: #343D46;
 
-  /* accent colours */
-  --sn-stylekit-info-color: #5fb3b3;        /* tealish cyan */
-  --sn-stylekit-success-color: #99c794;      /* mint green */
-  --sn-stylekit-warning-color: #fac863;      /* sandy yellow */
-  --sn-stylekit-danger-color: #ec5f67;      /* soft red */
+  /* accents */
+  --sn-stylekit-info-color: #5FB3B3;        /* strings / cyan */
+  --sn-stylekit-success-color: #99C794;      /* numbers / green */
+  --sn-stylekit-warning-color: #FAC863;    /* yellow */
+  --sn-stylekit-danger-color: #EC5F67;     /* red errors */
 
   /* editor overrides */
-  --sn-stylekit-editor-background-color: #0b1c2f;
-  --sn-stylekit-editor-foreground-color: #a8d0e6;
+  --sn-stylekit-editor-background-color: #1B2B34;
+  --sn-stylekit-editor-foreground-color: #CDD3DE;
 
   /* typography */
   --sn-stylekit-sans-serif-font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
