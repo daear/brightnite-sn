@@ -1,38 +1,71 @@
-/* scope to the app container so variables override defaults */
+/*
+ * OceanDeep for Standard Notes
+ * A calm, blue-green theme based on the classic Vim OceanDeep palette
+ * Host this file and reference its RAW URL in your theme.json
+ */
+
+/* scope variables to the app so they override defaults */
 .sn-component,
 #app,
 #root {
+  /* sizes (unchanged) */
+  --sn-stylekit-base-font-size: 14px;
+  --sn-stylekit-font-size-p: 1rem;
+  --sn-stylekit-font-size-editor: 1.21rem;
+  --sn-stylekit-font-size-h6: 0.8rem;
+  --sn-stylekit-font-size-h5: 0.9rem;
+  --sn-stylekit-font-size-h4: 1rem;
+  --sn-stylekit-font-size-h3: 1.1rem;
+  --sn-stylekit-font-size-h2: 1.2rem;
+  --sn-stylekit-font-size-h1: 1.3rem;
+
   /* OceanDeep palette */
-  --sn-stylekit-background-color: #0b1c2f;
-  --sn-stylekit-foreground-color: #a8d0e6;
   --sn-stylekit-neutral-color: #5a7d8c;
   --sn-stylekit-neutral-contrast-color: #0b1c2f;
+
   --sn-stylekit-info-color: #5fb3b3;
   --sn-stylekit-info-contrast-color: #0b1c2f;
+
   --sn-stylekit-success-color: #99c794;
   --sn-stylekit-success-contrast-color: #0b1c2f;
+
   --sn-stylekit-warning-color: #fac863;
   --sn-stylekit-warning-contrast-color: #0b1c2f;
+
   --sn-stylekit-danger-color: #ec5f67;
   --sn-stylekit-danger-contrast-color: #0b1c2f;
+
   --sn-stylekit-shadow-color: #1e3a50;
+  --sn-stylekit-background-color: #0b1c2f;
   --sn-stylekit-border-color: #1e3a50;
+  --sn-stylekit-foreground-color: #a8d0e6;
+
   --sn-stylekit-contrast-background-color: #1e3a50;
   --sn-stylekit-contrast-foreground-color: #c1e6f3;
   --sn-stylekit-contrast-border-color: #2a4d66;
+
   --sn-stylekit-secondary-background-color: #15283d;
   --sn-stylekit-secondary-foreground-color: #9ec3d9;
   --sn-stylekit-secondary-border-color: #2a4d66;
+
   --sn-stylekit-secondary-contrast-background-color: #2a4d66;
   --sn-stylekit-secondary-contrast-foreground-color: #c1e6f3;
   --sn-stylekit-secondary-contrast-border-color: #3a617d;
-  --sn-stylekit-editor-background-color: #0b1c2f;
-  --sn-stylekit-editor-foreground-color: #a8d0e6;
+
+  --sn-stylekit-editor-background-color: var(--sn-stylekit-background-color);
+  --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
+
   --sn-stylekit-paragraph-text-color: #a8d0e6;
+
   --sn-stylekit-input-placeholder-color: #5a7d8c;
   --sn-stylekit-input-border-color: #2a4d66;
+
   --sn-stylekit-scrollbar-thumb-color: #2a4d66;
   --sn-stylekit-scrollbar-track-border-color: #1e3a50;
+
+  --sn-stylekit-general-border-radius: 2px;
+
+  /* greys → OceanDeep blues */
   --sn-stylekit-grey-1: #5a7d8c;
   --sn-stylekit-grey-2: #6a8b9a;
   --sn-stylekit-grey-3: #88a3b4;
@@ -40,6 +73,8 @@
   --sn-stylekit-grey-4-opacity-variant: #a8d0e633;
   --sn-stylekit-grey-5: #1e3a50;
   --sn-stylekit-grey-6: #2a4d66;
+
+  /* accessory accent tints */
   --sn-stylekit-accessory-tint-color-1: #5fb3b3;
   --sn-stylekit-accessory-tint-color-2: #c792ea;
   --sn-stylekit-accessory-tint-color-3: #fac863;
