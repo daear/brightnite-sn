@@ -1,21 +1,82 @@
 :root {
-  /* Oceanic Next palette */
-  --sn-stylekit-background-color: #1B2B34;   /* main bg */
-  --sn-stylekit-foreground-color: #CDD3DE; /* default text */
-  --sn-stylekit-neutral-color: #2B3A42;      /* panels / borders */
-  --sn-stylekit-border-color: #343D46;
+  --sn-stylekit-base-font-size: 14px;
 
-  /* accents */
-  --sn-stylekit-info-color: #5FB3B3;        /* strings / cyan */
-  --sn-stylekit-success-color: #99C794;      /* numbers / green */
-  --sn-stylekit-warning-color: #FAC863;    /* yellow */
-  --sn-stylekit-danger-color: #EC5F67;     /* red errors */
+  --sn-stylekit-font-size-p: 1rem;
+  --sn-stylekit-font-size-editor: 1.21rem;
 
-  /* editor overrides */
-  --sn-stylekit-editor-background-color: #1B2B34;
-  --sn-stylekit-editor-foreground-color: #CDD3DE;
+  --sn-stylekit-font-size-h6: 0.8rem;
+  --sn-stylekit-font-size-h5: 0.9rem;
+  --sn-stylekit-font-size-h4: 1rem;
+  --sn-stylekit-font-size-h3: 1.1rem;
+  --sn-stylekit-font-size-h2: 1.2rem;
+  --sn-stylekit-font-size-h1: 1.3rem;
 
-  /* typography */
-  --sn-stylekit-sans-serif-font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --sn-stylekit-monospace-font: 'Fira Code', 'SF Mono', Monaco, 'Cascadia Code', monospace;
+  /* OceanDeep mapping */
+  --sn-stylekit-neutral-color: #5a7d8c;               /* muted teal-blue */
+  --sn-stylekit-neutral-contrast-color: #0b1c2f;      /* deep navy */
+
+  --sn-stylekit-info-color: #5fb3b3;                  /* bright sea-cyan */
+  --sn-stylekit-info-contrast-color: #0b1c2f;
+
+  --sn-stylekit-success-color: #99c794;               /* soft mint */
+  --sn-stylekit-success-contrast-color: #0b1c2f;
+
+  --sn-stylekit-warning-color: #fac863;               /* sandy yellow */
+  --sn-stylekit-warning-contrast-color: #0b1c2f;
+
+  --sn-stylekit-danger-color: #ec5f67;                /* salmon red */
+  --sn-stylekit-danger-contrast-color: #0b1c2f;
+
+  --sn-stylekit-shadow-color: #1e3a50;                /* darker navy shadow */
+  --sn-stylekit-background-color: #0b1c2f;              /* main deep navy */
+  --sn-stylekit-border-color: #1e3a50;                 /* panel borders */
+  --sn-stylekit-foreground-color: #a8d0e6;            /* icy foreground text */
+
+  --sn-stylekit-contrast-background-color: #1e3a50;   /* elevated surfaces */
+  --sn-stylekit-contrast-foreground-color: #c1e6f3;
+  --sn-stylekit-contrast-border-color: #2a4d66;
+
+  --sn-stylekit-secondary-background-color: #15283d;  /* secondary panels */
+  --sn-stylekit-secondary-foreground-color: #9ec3d9;
+  --sn-stylekit-secondary-border-color: #2a4d66;
+
+  --sn-stylekit-secondary-contrast-background-color: #2a4d66;
+  --sn-stylekit-secondary-contrast-foreground-color: #c1e6f3;
+  --sn-stylekit-secondary-contrast-border-color: #3a617d;
+
+  --sn-stylekit-editor-background-color: var(--sn-stylekit-background-color);
+  --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
+
+  --sn-stylekit-paragraph-text-color: #a8d0e6;
+
+  --sn-stylekit-input-placeholder-color: #5a7d8c;
+  --sn-stylekit-input-border-color: #2a4d66;
+
+  --sn-stylekit-scrollbar-thumb-color: #2a4d66;
+  --sn-stylekit-scrollbar-track-border-color: #1e3a50;
+
+  --sn-stylekit-general-border-radius: 2px;
+
+  /* typography unchanged */
+  --sn-stylekit-monospace-font: 'Ubuntu Mono', courier, monospace;
+  --sn-stylekit-sans-serif-font: -apple-system, BlinkMacSystemFont,
+    'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+
+  /* greys replaced with OceanDeep blues */
+  --sn-stylekit-grey-1: #5a7d8c;
+  --sn-stylekit-grey-2: #6a8b9a;
+  --sn-stylekit-grey-3: #88a3b4;
+  --sn-stylekit-grey-4: #a8d0e6;
+  --sn-stylekit-grey-4-opacity-variant: #a8d0e633;
+  --sn-stylekit-grey-5: #1e3a50;
+  --sn-stylekit-grey-6: #2a4d66;
+
+  /* accessory tints harmonised */
+  --sn-stylekit-accessory-tint-color-1: #5fb3b3;
+  --sn-stylekit-accessory-tint-color-2: #c792ea;
+  --sn-stylekit-accessory-tint-color-3: #fac863;
+  --sn-stylekit-accessory-tint-color-4: #6699cc;
+  --sn-stylekit-accessory-tint-color-5: #99c794;
+  --sn-stylekit-accessory-tint-color-6: #ec5f67;
 }
