@@ -1,0 +1,21 @@
+:root {
+  /* Core blues */
+  --sn-stylekit-background-color: #0f172a;      /* calm navy */
+  --sn-stylekit-foreground-color: #e2e8f0;     /* soft off-white */
+  --sn-stylekit-neutral-color: #1e293b;       /* slightly lighter panel */
+  --sn-stylekit-border-color: #334155;        /* subtle borders */
+
+  /* Accent blues */
+  --sn-stylekit-info-color: #38bdf8;            /* bright sky-blue */
+  --sn-stylekit-success-color: #34d399;
+  --sn-stylekit-warning-color: #f59e0b;
+  --sn-stylekit-danger-color: #f43f5e;
+
+  /* Editor overrides */
+  --sn-stylekit-editor-background-color: #0f172a;
+  --sn-stylekit-editor-foreground-color: #e2e8f0;
+
+  /* Typography */
+  --sn-stylekit-sans-serif-font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --sn-stylekit-monospace-font: 'Fira Code', 'SF Mono', Monaco, 'Cascadia Code', monospace;
+}
